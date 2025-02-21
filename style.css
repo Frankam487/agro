@@ -289,3 +289,17 @@ footer h3 {
         padding: 20px;
     }
 }
+.copyright{
+  display: flex;
+  justify-content: space-around;
+}
+i{
+  color: black;
+}
+.article button {
+  padding: 6px;
+  border: none;
+  background-color: var(--green-color-ceil);
+  color: #fff;
+  border-radius: 3px;
+}
