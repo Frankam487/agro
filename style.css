@@ -165,12 +165,17 @@ nav ul li {
   background: var(--green-color-ceil);
   padding: 6px;
 }
+.hero{
+  /* background: red; */
+  
+}
 .box-1 {
   padding: 0 8px;
 }
 .box-1 button {
   color: var(--white-color);
   border-radius: 5px;
+  margin-bottom: 12px;
 }
 footer {
   border-top: 2px solid rgba(37, 36, 36, 0.815);
@@ -191,4 +196,52 @@ footer h3 {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+
+
+
+
+@media (max-width: 768px) {
+ul li{
+  display: none;
+}
+.hero{
+  display: block;
+
+}
+.hero{
+display: flex;
+flex-direction: column-reverse;
+}
+.hero .first{
+width: 100%;
+}
+.hero button {
+  margin: 0 auto;
+  margin: 12px 0;
+}
+.hero .first h1{
+  font-size: 3rem;
+  text-align: center;
+  align-items: center;
+}
+.hero img{
+  width: 100%;
+  border-radius: 50%;
+}
+.about{
+  display: block;
+}
+.boxes{
+  display: flex;
+  flex-direction: column;
+  
+}
+.article .box-1{
+  width: 60%;
+}
+}
+*{
+  /* border: 1px solid red; */
 }
