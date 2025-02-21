@@ -194,13 +194,17 @@ footer h3 {
 }
 .copyright {
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
   margin-top: -32px;
   background: var(--green-color-ceil);
   padding: 12px 0;
 }
-
+.icons i{
+   font-weight: bold;
+   font-size: 1.2rem;
+   color: black;
+}
 @media (max-width: 768px) {
 ul li{
   display: none;
