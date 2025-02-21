@@ -179,14 +179,14 @@ nav ul li {
 }
 footer {
   border-top: 2px solid rgba(37, 36, 36, 0.815);
-  margin: 60px 0;
+  margin: 32px 0;
   display: grid;
   grid-template-columns: 33.33% 33.33% 33.33%;
   background: #c2c5c3;
   justify-content: center;
   align-items: center;
   padding: 0 54px;
-  height: 30vh;
+  /* height: 30vh; */
 }
 
 footer h3 {
@@ -196,11 +196,10 @@ footer h3 {
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-top: -32px;
+  background: var(--green-color-ceil);
+  padding: 12px 0;
 }
-
-
-
-
 
 @media (max-width: 768px) {
 ul li{
@@ -208,7 +207,6 @@ ul li{
 }
 .hero{
   display: block;
-
 }
 .hero{
 display: flex;
@@ -233,6 +231,9 @@ width: 100%;
 .about{
   display: block;
 }
+.about img{
+  margin-left: -32px;
+}
 .boxes{
   display: flex;
   flex-direction: column;
@@ -240,6 +241,12 @@ width: 100%;
 }
 .article .box-1{
   width: 60%;
+}
+
+footer{
+  display: block;
+  text-align: center;
+  height: 100%;
 }
 }
 *{
